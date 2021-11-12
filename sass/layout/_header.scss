@@ -1,0 +1,29 @@
+.header {
+  height: 95vh;
+  background-image: url(/img/652393.jpg);
+  background-size: cover;
+  background-position: center;
+
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+
+  &__logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+  }
+
+  &__logo {
+    height: 10rem;
+    width: 10rem;
+    /* animation: appear;
+        animation-duration: 0.35s; */
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+}

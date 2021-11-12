@@ -1,0 +1,15 @@
+{
+  "name": "flowerfoeld",
+  "version": "1.0.0",
+  "description": "Landing page for flowefield",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Pahchan",
+  "license": "ISC"
+}
